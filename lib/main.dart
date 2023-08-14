@@ -33,7 +33,7 @@ class inicioPagina extends StatefulWidget {
 
 class _inicioPaginaState extends State<inicioPagina> {
   TextEditingController alturaController = TextEditingController();
-  double peso = 70; // Valor padrão para o peso
+  double peso = 70; 
   double imc = 0.0;
   
   void _calcular() {
